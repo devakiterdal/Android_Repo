@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#689F38"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="49dp"-->
+    <!--        android:layout_height="20dp"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:orientation="vertical">-->
+    <!--        <EditText-->
+    <!--            android:id="@+id/editText"-->
+    <!--            android:layout_width="142dp"-->
+    <!--            android:layout_height="84dp"-->
+    <!--            android:hint="Enter item" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button"-->
+    <!--            android:layout_width="402dp"-->
+    <!--            android:layout_height="105dp"-->
+    <!--            android:background="#388E3C"-->
+    <!--            android:gravity="clip_horizontal|center_horizontal|center_vertical"-->
+    <!--            android:scrollbarThumbHorizontal="@drawable/ic_launcher_background"-->
+    <!--            android:scrollbars="horizontal"-->
+    <!--            android:text="ADD"-->
+    <!--            android:textColor="#8BC34A"-->
+    <!--            android:textSize="24sp" />-->
+    <!--    </LinearLayout>-->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:text="TO-DO APP"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#D2EBD2"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="Enter Item"
+        android:inputType="textPersonName"
+        android:textColor="#F0E9E9" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#EFF0D9"
+        android:text="ADD"
+        android:textAllCaps="true"
+        android:textColor="#689F38"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
